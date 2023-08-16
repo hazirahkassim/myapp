@@ -12,7 +12,7 @@ return(
                     <div className="pro-btns">
                         {/* link for view project */}
                         <NavLink to={props.view} className="btn">View</NavLink>
-                        <NavLink to="google.com" className="btn">Source</NavLink>
+                        <NavLink to= {props.source} className="btn">Source</NavLink>
                     </div>
                 </div>
             </div>
